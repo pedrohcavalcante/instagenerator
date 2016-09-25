@@ -37,6 +37,7 @@ public class InstaComemntGenerator {
 				for (int j = 0; j < usernames.length - 1; j++) {
                 	for (int k = j + 1; k < usernames.length; k++) {
 						pw.println(" @" + usernames[j] + " @" + usernames[k]);
+						count++
                    	}
 				}
                  
